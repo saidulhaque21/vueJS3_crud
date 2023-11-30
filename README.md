@@ -1,22 +1,26 @@
 # vueJS3_crud
 CRUD skeleton application using vueJs 3. If someone understand the whole process/Lifecycle of CRUD by this skeleton, He/She will be able do any project using vuejs speacially API based one page UI application 
 
-**vueJS 3 **
+**vueJS 3**
+
 Vue 3 is the current, latest major version of Vue. It contains new features ... This means Vue 2 will reach End of Life on December 31st, 2023. For quick start : https://vuejs.org/guide/quick-start.html
 
 **vue routing**
+
 Vuejs – routing router is great for creating Single Page Applications. For CDN link: https://router.vuejs.org/installation.html
 
 **Axios**
+
 Axios is a promise-based HTTP library that lets developers make requests to either their own or a third-party server to fetch data. For CDN: https://axios-http.com/docs/intro
 
 # Application & Skeleton
+
 One can build vueJS application using both CDN or NPN. If you want to build monolithic app means backend and front-end together, then CDN is best choose. In this example, I used CDN where 
 there are two parts in the skeleton - HTML and JS. 
 
 # Main Skeleton - HTML
 
-**APP: **
+**APP:**
 
 ```
 <div id="crudvue_app" v-cloak class="card" >  
@@ -35,7 +39,7 @@ there are two parts in the skeleton - HTML and JS.
                     </div>
 ```
 
-** Tamplate - index, add, edit and view: **
+**Tamplate - index, add, edit and view:**
 
 ```
 <template id="crudvue_index">
@@ -181,8 +185,8 @@ crudvue_app.use(crudRouter)
 crudvue_app.mount('#crudvue_app')
 
 ```
-# Test Demo 
-Just pull repository and open in browse. 
+# Test FULL Demo 
+First,  pull repository and open in browse. It will work without API parts. For adding API, just follow inline comments and change your base URL. 
 
 # Enjoy!!! 
 
