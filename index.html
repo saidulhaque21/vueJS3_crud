@@ -23,8 +23,7 @@
                                 <router-link to="/" class="btn btn-success m-2">Index</router-link> 
                                 <router-link class="btn btn-info m-2" to="/add">Add</router-link>
                             </div>
-                            <div class="col-12"> 
-                                {{successMessage}}
+                            <div class="col-12">  
                                 <div v-if="errorMessage"  v-html="errorMessage"  class="alert alert-danger m-1"></div>
                                 <div v-if="successMessage"  v-html="successMessage"  class="alert alert-success m-1"></div> 
                             </div>
