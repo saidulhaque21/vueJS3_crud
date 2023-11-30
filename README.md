@@ -15,8 +15,11 @@ Axios is a promise-based HTTP library that lets developers make requests to eith
 
 # Application & Skeleton
 
-One can build vueJS application using both CDN or NPN. If you want to build monolithic app means backend and front-end together, then CDN is best choose. In this example, I used CDN where 
-there are two parts in the skeleton - HTML and JS. 
+One can build vueJS application using both CDN(content delivery network) or NPM(Node Package Manager). 
+
+If you want to build monolithic app means backend and front-end together, then CDN is best choose. In this example, I used CDN for monolithic single page app under main application using CaekPHP/Larabel/CodeIgnitor framewoork.  
+
+There are two parts in the skeleton - HTML and JS. 
 
 # Main Skeleton - HTML
 
